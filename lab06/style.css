@@ -1,0 +1,40 @@
+body {
+  font-family: Arial;
+  background-image: url("images/background.jpg");
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: blue;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+h2{
+  color: purple;
+  text-align: center;
+}
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  color: red;
+  margin: 5px;
+}
+
+main {
+  padding: 10px;
+  background-color: white;
+  text-align: center; 
+  margin: 20px;
+  padding: 50px;
+}
+
+img {
+  width: 300px;
+}
