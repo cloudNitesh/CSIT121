@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Contact Form - Lab 07</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Contact Form</h1>
+        <nav>
+            <a href="tierlist.html">Tier List</a> -
+            <a href="contact.html">Contact Form</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Share Your Thoughts</h2>
+        <p>Have opinions about our rankings? Fill out the form below!</p>
+
+        <form>
+            <div>
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname">
+            </div>
+            <div>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email">
+            </div>
+            <div>
+                <label for="address">Address:</label><br>
+                <input type="text" id="address" name="address">
+            </div>
+            <div>
+                <label for="comment">Comment:</label><br>
+                <input type="text" id="comment" name="comment">
+            </div>
+            <div>
+                <label for="favorite">Who is your favorite villain?</label>
+                <input type="checkbox" id="thanos" name="favoritevillain" value="Thanos">
+                <label for="thanos"> Thanos</label><br>
+                <input type="checkbox" id="Loki" name="favoritevillain" value="Loki">
+                <label for="Loki"> Loki</label><br>
+            </div>
+            <div>
+                <label for="leastvillain">Choose your least favorite villain:</label><br />
+                <select name="leastvillain" id="leastvillain">
+                    <option value="ronan">Ronan</option>
+                    <option value="whiplash">Whiplash</option>
+                </select>
+
+            </div>
+            <div>
+                <label>Which villains do you want added next?</label>
+                <input type="radio" id="venom" name="newvillain" value="Venom">
+                <label for="venom">Venom</label>
+                <input type="radio" id="doom" name="newvillain" value="Doom">
+                <label for="doom">Doom</label>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Nitesh | Lab 07</p>
+    </footer>
+</body>
+
+</html>
