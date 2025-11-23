@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>HTML Semantics - What Is It?</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <h1>HTML Semantics</h1>
+  <h2>What Is It?</h2>
+</header>
+
+<div class="topnav" id="myTopnav">
+  <a href="index.html">What Is It?</a>
+  <a href="importance.html">Why is it Important</a>
+  <a href="usage.html">How is It Used</a>
+  <a href="sources.html">Sources</a>
+</div>
+
+<main>
+  <p>
+     HTML semantics refers to using tags that clearly describe the meaning and purpose
+     of the content on a webpage. Instead of using generic tags like div and span, 
+     semantic HTML uses tags such as header, article, section, and footer 
+     to provide better structure and clarity.
+  </p>
+  <p>
+     The key difference between semantic and non-semantic elements is that semantic elements
+     convey meaning about the content they contain, while non-semantic elements do not provide
+     any information about their content. For example, a header tag indicates that the content
+     inside it is a header, while a div tag does not provide any semantic meaning.
+  </p>
+  <p>
+     Tags like header define the introductory content of a page, nav is used for
+     navigation links, and main represents the main content of the document. By using
+     these tags make it easier to navigate and understand the structure of a webpage.
+  </p>
+</main>
+
+<footer>
+  <p>&copy; 2025 Nitesh</p>
+</footer>
+
+</body>
+<script>
+  function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</html>
