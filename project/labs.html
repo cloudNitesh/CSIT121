@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Labs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+  <h1>My Labs</h1>
+</header>
+
+<nav class="topnav" id="myTopnav">
+  <a href="index.html">Home</a>
+  <a href="about.html">About Me</a>
+  <a href="labs.html" class="active">My Labs</a>
+  <a href="reflection.html">Reflection</a>
+  <a href="javascript:void(0);" class="icon" onclick="toggleNav()">&#9776;</a>
+</nav>
+
+<main>
+
+<h2>Overview</h2>
+<p>This page includes a list of the labs I completed this semester. Each lab taught me something
+  new about HTML and CSS, such as tables, lists, navigation menus, layout rules, and responsive
+  design using media queries.</p>
+
+<h3>List of Labs</h3>
+<ul>
+  <li>Lab 02 -- Basic HTML Elements</li>
+  <li>Lab 03 -- CSS Styling</li>
+  <li>Lab 05 -- Responsive Layouts</li>
+  <li>Lab 08 -- Navigation Menus</li>
+</ul>
+
+<p>All labs can be viewed inside my GitHub repository:</p>
+
+<p><a href="https://cloudnitesh.github.io/CSIT121/lab01/aboutme.html" target="_blank">My GitHub</a></p>
+
+</main>
+
+<footer>
+  <p>© 2025 Nitesh Portfolio</p>
+</footer>
+
+<script>
+function toggleNav() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>

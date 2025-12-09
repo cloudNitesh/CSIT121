@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Reflection</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+  <h1>Final Reflection</h1>
+</header>
+
+<nav class="topnav" id="myTopnav">
+  <a href="index.html">Home</a>
+  <a href="about.html">About Me</a>
+  <a href="labs.html">My Labs</a>
+  <a href="reflection.html" class="active">Reflection</a>
+  <a href="javascript:void(0);" class="icon" onclick="toggleNav()">&#9776;</a>
+</nav>
+
+<main>
+
+<h2>Final Thoughts</h2>
+<p>Creating this portfolio helped me put together everything I learned this semester. 
+  I practiced using structure tags, layout rules, responsive design, tables, lists, and 
+  navigation menus. Coding every page by hand helped me understand how important consistency
+  is in web design.
+</p>
+
+<p>I also learned how media queries improve the way a site looks on phones. Testing my pages
+   on mobile showed me how important spacing, text size, and layout are when the screen becomes
+   smaller. The experience helped me understand responsive design more clearly.
+</p>
+
+<p>Overall, this project taught me useful skills that I can continue using in future web development
+   work. I now feel confident building simple websites using only HTML and CSS.
+</p>
+
+</main>
+
+<footer>
+  <p>© 2025 Nitesh Portfolio</p>
+</footer>
+
+<script>
+function toggleNav() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>

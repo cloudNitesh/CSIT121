@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>About Me</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+  <h1>About Me</h1>
+</header>
+
+<nav class="topnav" id="myTopnav">
+  <a href="index.html">Home</a>
+  <a href="about.html" class="active">About Me</a>
+  <a href="labs.html">My Labs</a>
+  <a href="reflection.html">Reflection</a>
+  <a href="javascript:void(0);" class="icon" onclick="toggleNav()">&#9776;</a>
+</nav>
+
+<main>
+
+<h2>Who I Am</h2>
+<p>I created this portfolio to show the skills I learned in web development. Using basic HTML
+   and CSS from W3Schools, I learned to write clean code, apply consistent styling, add images,
+   and build multi-page websites with responsive layouts.
+</p>
+
+<h2>My Growth</h2>
+<p>At first, learning how HTML and CSS worked together was confusing, but with each lab,
+  it became easier to understand. I learned how important structure tags and layout rules are
+  for creating pages that are easy to read and navigate. This portfolio is the biggest project
+  I created this semester.
+</p>
+
+<h2>Goals</h2>
+<p>My goal is to continue improving my web development skills. This class gave me a strong
+  foundation, and now I feel confident building websites on my own. I want to learn more about
+  accessibility, design, and JavaScript in the future.
+</p>
+
+</main>
+
+<footer>
+  <p>© 2025 Nitesh Portfolio</p>
+</footer>
+
+<script>
+function toggleNav() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>
