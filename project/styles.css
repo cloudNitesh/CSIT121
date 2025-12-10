@@ -59,7 +59,12 @@ table, th, td {
 .topnav .icon {
   display: none;
 }
-
+@media screen and (max-width: 600px) {
+  main {
+    margin: 15px auto;
+    padding: 15px;
+  }
+}
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
